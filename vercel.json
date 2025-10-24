@@ -18,17 +18,11 @@
     }
   },
   "ignores": [
-    "*.md",
-    "*.txt",
     "__pycache__/**",
     "*.pyc",
     ".git/**",
-    ".gitignore",
     "interfaz_interactiva.py",
-    "*.log",
-    ".env",
-    "requirements-dev.txt",
-    "tests/**",
-    "docs/**"
+    "*.md",
+    ".env"
   ]
 }
