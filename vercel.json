@@ -15,12 +15,16 @@
       "dest": "app.py"
     }
   ],
-  "ignores": [
-    "__pycache__/**",
-    "*.pyc",
-    ".git/**",
-    "interfaz_interactiva.py",
-    "*.md",
-    ".env"
-  ]
+  "functions": {
+    "excludeFiles": [
+      "__pycache__/**",
+      "*.pyc",
+      ".git/**",
+      "interfaz_interactiva.py",
+      "*.md",
+      ".env",
+      "tests/**",
+      "*.test.py"
+    ]
+  }
 }
