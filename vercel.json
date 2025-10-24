@@ -11,5 +11,24 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
+  ],
+  "functions": {
+    "app.py": {
+      "maxDuration": 30
+    }
+  },
+  "ignores": [
+    "*.md",
+    "*.txt",
+    "__pycache__/**",
+    "*.pyc",
+    ".git/**",
+    ".gitignore",
+    "interfaz_interactiva.py",
+    "*.log",
+    ".env",
+    "requirements-dev.txt",
+    "tests/**",
+    "docs/**"
   ]
 }
