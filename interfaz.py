@@ -3,6 +3,10 @@ from destinos import RecomendadorTuristico, Destino
 from arbol_decisiones import ArbolDecisiones
 from typing import List
 
+st.set_page_config(
+    page_title="Turismo",
+    page_icon="./imagenes/favicon.ico"
+)
 
 class InterfazStreamlit:
     """Maneja la interfaz de usuario con Streamlit."""
