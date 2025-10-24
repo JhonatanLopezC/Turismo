@@ -16,15 +16,17 @@
     }
   ],
   "functions": {
-    "excludeFiles": [
-      "__pycache__/**",
-      "*.pyc",
-      ".git/**",
-      "interfaz_interactiva.py",
-      "*.md",
-      ".env",
-      "tests/**",
-      "*.test.py"
-    ]
+    "app.py": {
+      "excludeFiles": [
+        "__pycache__/**",
+        "*.pyc",
+        ".git/**",
+        "interfaz_interactiva.py",
+        "*.md",
+        ".env",
+        "tests/**",
+        "*.test.py"
+      ]
+    }
   }
 }
